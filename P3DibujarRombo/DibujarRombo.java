@@ -1,24 +1,36 @@
 package P3DibujarRombo;
 import javax.swing.JOptionPane;
 
+//Dibujar un rombo con el caractér que ingrese el usuario
 public class DibujarRombo {
-    //Dibujar un rombo con el caractér que ingrese el usuario
-    public static void main(String[] args) {
-        int array [][] = new int [5][5];
-        int us;
-        us = Integer.parseInt(JOptionPane.showInputDialog(null, "¿De qué caractér quieres llenar el arreglo?"));
-
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                array[i][j] = us;
+    static void CreateArray(String array[][], int n, String us) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) { // i-j <= (n/2)
+                if (i + j >= (n / 2) && i + (n / 2) >= j && j + (n / 2) >= i && i + j <= (n / 2) + n - 1) {
+                    array[i][j] = us;
+                } else {
+                    array[i][j] = "0";
+                }
             }
         }
+    }
 
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+    static void PrintArray(String array[][], int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
                 System.out.print(array[i][j] + " ");
             }
             System.out.println();
         }
+    }
+    public static void main(String[] args) {
+        int n;
+        n = Integer.parseInt(JOptionPane.showInputDialog(null, "¿De qué tamaño quieres el arreglo?"));
+        String array [][] = new String [n][n];
+        String us;
+        us = JOptionPane.showInputDialog(null, "¿De qué carácter quieres llenar el rombo?");
+
+        CreateArray(array, n, us);
+        PrintArray(array, n);
     }
 }
