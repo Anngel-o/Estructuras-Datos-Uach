@@ -1,6 +1,6 @@
 package P3DibujarRombo;
 import java.util.Scanner;
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 //Dibujar un rombo con el carácter que ingrese el usuario
 public class DibujarRombo {

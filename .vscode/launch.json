@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "P7ListasCirculares.Main",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArregloAleatorio",
+            "request": "launch",
+            "mainClass": "ArregloAleatorio.ArregloAleatorio",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        },
+        {
+            "type": "java",
+            "name": "ListTest",
+            "request": "launch",
+            "mainClass": "ListasEnlazadas.ListTest",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        },
+        {
+            "type": "java",
+            "name": "ModificarArreglo",
+            "request": "launch",
+            "mainClass": "P1ModificarArreglo.ModificarArreglo",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        },
+        {
+            "type": "java",
+            "name": "DibujarRombo",
+            "request": "launch",
+            "mainClass": "P3DibujarRombo.DibujarRombo",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        },
+        {
+            "type": "java",
+            "name": "LibreriaUniones",
+            "request": "launch",
+            "mainClass": "P4Uniones.LibreriaUniones",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "P6ListasEnlazadas.Main",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        },
+        {
+            "type": "java",
+            "name": "TestUno",
+            "request": "launch",
+            "mainClass": "TestUno.TestUno",
+            "projectName": "Estructura Datos Uach_bcbce785"
+        }
+    ]
+}
